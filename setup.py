@@ -1,10 +1,12 @@
 from distutils.core import setup
 
+import setuptools
+
 setup(
     name="mtools",
     version="1.0",
     description="common utilities for malware analysis",
     author="dagrons",
     author_email="heyuehuii@126.com",
-    packages=["mtools"]
+    packages = setuptools.find_packages()
 )
