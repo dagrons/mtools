@@ -10,7 +10,7 @@ setup(
     author_email="heyuehuii@126.com",
     packages = setuptools.find_packages(),
     include_package_data=True,
-    package_data = {'': ['malware_classification/trained_models/*', 'malware_sim/trained_models/*']},
+    # package_data = {'': ['malware_classification/trained_models/*', 'malware_sim/trained_models/*']},
     install_requires = [
         'celery',
         'gensim',
