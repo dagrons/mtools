@@ -26,5 +26,6 @@ setup(
         'redis',
         'torch',
         'torchsummary',
+        'gdown'
     ]
 )
