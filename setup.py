@@ -13,7 +13,7 @@ setup(
     # package_data = {'': ['malware_classification/trained_models/*', 'malware_sim/trained_models/*']},
     install_requires = [
         'celery',
-        'gensim',
+        'gensim==4.0.1',
         'imageio',
         'mongoengine',
         'numpy',
