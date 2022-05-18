@@ -13,7 +13,7 @@ setup(
     # package_data = {'': ['malware_classification/trained_models/*', 'malware_sim/trained_models/*']},
     install_requires = [
         'celery',
-        'gensim==4.0.1',
+        'gensim',
         'imageio',
         'mongoengine',
         'numpy',
@@ -24,7 +24,7 @@ setup(
         'Pygments',
         'pymongo',
         'redis',
-        'torch==1.11.0',
+        'torch',
         'torchsummary',
         'gdown'
     ]
