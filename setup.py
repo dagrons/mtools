@@ -24,7 +24,7 @@ setup(
         'Pygments',
         'pymongo',
         'redis',
-        'torch',
+        'torch==1.11.0',
         'torchsummary',
         'gdown'
     ]
